@@ -27,7 +27,7 @@
         android:text="Esborra" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/numero"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -35,22 +35,23 @@
         android:layout_marginBottom="20dp"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/boto1"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/numero"
+        android:layout_alignStart="@+id/numero"
+        android:layout_below="@+id/numero"
         android:text="1" />
 
     <Button
         android:id="@+id/boto2"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/numero"
         android:layout_centerHorizontal="true"
         android:text="2" />
 
@@ -58,9 +59,9 @@
         android:id="@+id/boto3"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_alignEnd="@+id/editText"
-        android:layout_alignRight="@+id/editText"
-        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/numero"
+        android:layout_alignRight="@+id/numero"
+        android:layout_below="@+id/numero"
         android:text="3" />
 
     <Button
